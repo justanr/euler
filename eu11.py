@@ -3,7 +3,7 @@
 # Largest product in grid
 # Problem 11
 # 
-# In the 20 by 20 grid below, four numbers along a diagonal line have been marked in red.
+# In the 20 by 20 grid below, four numbers along a diagonal line have been marked in red*.
 #
 #          08 02 22 97 38 15 00 40 00 75 04 05 07 78 52 12 50 77 91 08
 #          49 49 99 40 17 81 18 57 60 87 17 40 98 43 69 48 04 56 62 00
@@ -30,8 +30,7 @@
 # 
 # What is the greatest product of four adjacent numbers in the same direction (up, down, left, right, or diagonally) in the 20 by 20 grid?
 #
-# I left the mapping portion in because it helps document
-# my thought process and how I approached the problem.
+# I left the mapping portion in because it helps document  my thought process and how I approached the problem.
 # Deal with it bro.
 # 
 # The magic numbers (20, 3, 17) can easily be replaced with
@@ -39,9 +38,12 @@
 # limit = 4          # We want four numbers
 # len(n) - limit + 1 # 20 - 4 + 1
 #
-# Replacing the mapping would be a little more complicated,
-# I'll leave that to you to figure out. But I imagine that
-# A couple more nested for loops would work just fine.
+# Replacing the mapping would be a little more complicated.
+# I'll leave that to you to figure out. 
+# But I imagine that a couple more nested for loops would work just fine.
+# 
+#
+# * This isn't House of Leaves full color edition. There are no numbers in red. More over, there is no ~~Minotaur~~.
 
 
 import time
