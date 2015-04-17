@@ -1,1 +1,1 @@
-These are my solutions for project euler.
+Solution to Project Euler in various languages.
