@@ -1,7 +1,3 @@
-def is_palindrome(n):
-    return n == n[::-1]
-
-
 def find_largest_palindrome_number():
     largest = 0
     for x in range(999, 99, -1):
