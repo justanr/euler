@@ -55,6 +55,9 @@ var/
 pip-log.txt
 pip-delete-this-directory.txt
 
+# rope
+.ropeproject/
+
 # Unit test / coverage reports
 htmlcov/
 .tox/
@@ -77,4 +80,33 @@ docs/_build/
 
 # PyBuilder
 target/
+
+### Scala ###
+*.class
+*.log
+
+# sbt specific
+.cache
+.history
+.lib/
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+
+# Created by https://www.gitignore.io
+
+### Vim ###
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
 
